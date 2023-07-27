@@ -1,6 +1,6 @@
 ## Visualization of Clusters
 
-![Equal Teams Visualization](equal_teams.png)
+![Equal Teams Visualization](Rugby%20Friends/equal_teams.png)
 
 # Code Description
 
