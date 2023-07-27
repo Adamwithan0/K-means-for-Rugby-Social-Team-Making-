@@ -1,3 +1,7 @@
+## Visualization of Clusters
+
+![Equal Teams Visualization](equal_teams.png)
+
 # Code Description
 
 ## Sentence Clustering and Top Matches
