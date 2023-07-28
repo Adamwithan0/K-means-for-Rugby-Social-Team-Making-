@@ -1,16 +1,16 @@
-## Visualization of Clusters
-
-![Equal Teams Visualization](Rugby%20Friends/equal_teams.png)
 
 # Code Description
 
+The Classic Post-Rugby Match Social: Half the team is covered in bruises, bandages and black eyes, but that still doesn't mean we can't have fun! Ususally games are played between two teams, including customary games of touch. For these games, we want to ensure that each team has good team chemistry, as well as an equal number of forward players and back players, as to make it a fair and evn match up. For that, we ask players to fill out a brief survey before each social event, including name, position and then a brief description of their interests.
+The Program will then cluster two teams by interests and position, returning a visualised dataset of who the best teams will be. 
+
 ## Sentence Clustering and Top Matches
 
-This code performs sentence clustering and identifies top matches among a group of players based on their responses in a given test or survey. The code uses sentence embeddings and dimensionality reduction techniques to group similar responses together, allowing for insightful analysis and comparison of players' answers.
+
 
 ## How the Code Works
 
-1. **Data Loading**: The code reads data from a CSV file named `test.csv`, which contains players' names, their corresponding paragraphs (responses), and their positions (forward or back).
+1. **Data Loading**: The code reads the data from the survey, in this case the CSV file named `test.csv`, which contains players' names, their corresponding paragraphs (responses), and their positions (forward or back).
 
 2. **Sentence Embeddings**: It utilizes SentenceTransformer, a pre-trained model, to convert each paragraph into a high-dimensional vector representation (embedding). These embeddings capture the semantic meaning of the sentences.
 
@@ -36,6 +36,9 @@ Feel free to modify the input data, adjust clustering parameters, or use a diffe
 
 Enjoy exploring and gaining valuable insights from your player data with this code! If you have any questions or feedback, please don't hesitate to reach out.
 
+## Visualization of Clusters
+
+![Equal Teams Visualization](Rugby%20Friends/equal_teams.png)
 ---
 
 *Note: Replace "players" with the appropriate term for the context in which the code is used, e.g., "attendees," "respondents," etc.*
