@@ -1,7 +1,7 @@
 
 # Code Description
 
-The Classic Post-Rugby Match Social: Half the team is covered in bruises, bandages and black eyes, but that still doesn't mean we can't have fun! Ususally games are played between two teams, including customary games of touch. For these games, we want to ensure that each team has good team chemistry, as well as an equal number of forward players and back players, as to make it a fair and evn match up. For that, we ask players to fill out a brief survey before each social event, including name, position and then a brief description of their interests.
+The Classic Post-Rugby Match Social: Half the team is covered in bruises, bandages and black eyes, but that still doesn't mean we can't have fun! Ususally games are played between two teams, including customary games of touch. For these games, we want to ensure that each team has good team chemistry, as well as an equal number of forward players and back players, as to make it a fair and even match up. For that, we ask players to fill out a brief survey before each social event, including name, position and then a brief description of their interests.
 The Program will then cluster two teams by interests and position, returning a visualised dataset of who the best teams will be. 
 
 ## Sentence Clustering and Top Matches
@@ -12,7 +12,7 @@ The Program will then cluster two teams by interests and position, returning a v
 
 1. **Data Loading**: The code reads the data from the survey, in this case the CSV file named `test.csv`, which contains players' names, their corresponding paragraphs (responses), and their positions (forward or back).
 
-2. **Sentence Embeddings**: It utilizes SentenceTransformer, a pre-trained model, to convert each paragraph into a high-dimensional vector representation (embedding). These embeddings capture the semantic meaning of the sentences.
+2. **Sentence Embeddings**: It then utilizes SentenceTransformer, a pre-trained model, to convert each paragraph into a high-dimensional vector representation (embedding). These embeddings capture the semantic meaning of the sentences.
 
 3. **Clustering**: The code employs UMAP (Uniform Manifold Approximation and Projection) and K-means clustering algorithms to group similar embeddings into clusters. It creates two clusters for forward and back positions separately.
 
